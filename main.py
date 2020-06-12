@@ -43,25 +43,19 @@ def main():
         if choice == 1:
             if tama.health >= 0:
                 tama.hunt()
-                print(tama)
-        return choice        
-#        choice = get_user_choice(main_menu)   
-
+                print(tama)  
         if choice == 2:
             if tama.health >= 0:
                 tama.encounter()
                 print(tama)
-        #        return choice
         if choice == 3:
             if tama.health >= 0:
                 tama.train()
-                print(tama)
-        #return choice                
+                print(tama)           
         if choice == 4:
             if tama.health >= 0:
                 tama.sing()
                 print(tama)
-        #return choice
         if choice == 5:
             if tama.health >= 0:
                 tama.evolve()
@@ -75,7 +69,7 @@ def main():
                 print(tama)
         if choice == 8:
             print("Thank you for playing!")
-        exit()
+            exit()
 
 
 main()
