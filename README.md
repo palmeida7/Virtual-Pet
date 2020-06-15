@@ -7,6 +7,7 @@ We had implemented different aspects such as Classes, Functions, and Importing f
 
 The project was originally intended to be a "Virtual Pet." However, I sought to add more user interactions and randomize outcomes based on how a random function affects relevant attributes .
 
+I am importing Class and methods from maincopy.py into petcopy.py for my final project.
 
 ######some code snippets
 import random
