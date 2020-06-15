@@ -40,6 +40,8 @@ def get_user_choice(choice_list):
 def main():    
     while True:
         choice = get_user_choice(main_menu)
+        if tama.exp_pt >= 100:
+            print("Congrats! You have evolved to TAMA-HAWK!")
         if choice == 1:
             if tama.health >= 0:
                 tama.hunt()
@@ -51,7 +53,7 @@ def main():
                 tama.encounter()
                 print(tama)
             elif tama.health <= 0:
-                print(tama.name + "is ded. D-E-D, ded.")
+                print(tama.name + " " + "is ded. D-E-D, ded.")
         if choice == 3:
             if tama.health >= 0:
                 tama.train()
